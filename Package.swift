@@ -37,10 +37,15 @@ let package = Package(
             ]
         ),
         .executableTarget(
-            name: "prepare-more-viewbuilder"
+            name: "prepare-more-viewbuilder-bin"
+        ),
+        .binaryTarget(
+            name: "prepare-more-viewbuilder-bin",
+            url: "https://github.com/p-x9/MoreViewBuilder/releases/download/0.0.1/prepare-more-viewbuilder-bin.artifactbundle.zip",
+            checksum: "eae2aa66cb35452ce8788335bf78bef3932be1842c5191870830769c4009a3d6"
         ),
 //        DUBUG
-        .binaryTarget(name: "prepare-more-viewbuilder-bin", path: "./prepare-more-viewbuilder-bin.artifactbundle.zip"),
+        // .binaryTarget(name: "prepare-more-viewbuilder-bin", path: "./prepare-more-viewbuilder-bin.artifactbundle.zip"),
         .testTarget(
             name: "MoreViewBuilderTests",
             dependencies: ["MoreViewBuilder"]),
