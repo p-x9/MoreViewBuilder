@@ -1,9 +1,9 @@
 //
 //  main.swift
-//  
+//
 //
 //  Created by p-x9 on 2023/01/27.
-//  
+//
 //
 
 import Foundation
@@ -33,9 +33,7 @@ func run() throws {
 
 do {
     try run()
-    print("🈵succeeded")
     exit(0)
 } catch {
-    print("🈵failed")
     exit(1)
 }

@@ -12,7 +12,6 @@ import PackagePlugin
 @main
 struct PrepareInfinitieViewBuilder: BuildToolPlugin {
     func createBuildCommands(context: PackagePlugin.PluginContext, target: PackagePlugin.Target) async throws -> [PackagePlugin.Command] {
-        print("🈵")
         let executablePath = try! context.tool(named: "prepare-more-viewbuilder-bin").path
 
         let outputPath = context.package.directory.appending("Sources/MoreViewBuilder/")
