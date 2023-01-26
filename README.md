@@ -1,3 +1,3 @@
-# InfiniteViewBuilder
+# MoreViewBuilder
 
 A description of this package.
