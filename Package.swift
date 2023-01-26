@@ -37,7 +37,7 @@ let package = Package(
             ]
         ),
         .executableTarget(
-            name: "prepare-more-viewbuilder-bin"
+            name: "prepare-more-viewbuilder"
         ),
         .binaryTarget(
             name: "prepare-more-viewbuilder-bin",
