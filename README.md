@@ -1,8 +1,8 @@
 # MoreViewBuilder
 
-Increase the number of views available in ViewBuilder
-(Up to 10 by SwiftUI standard)
-By default, up to 100 can be used.
+Increase the number of views available in ViewBuilder  
+(Up to 10 by SwiftUI standard)  
+By default, up to 100 can be used.  
 
 If you want more, change the numbers in the following file
 ./Plugins/plugin.swift
